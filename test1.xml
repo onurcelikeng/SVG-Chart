@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chartgendata>
+	<charttitle>Monthly Sales</charttitle>
+	<canvas>
+		<length>1000</length>
+		<width>1000</width>
+		<backcolor>AABBCC</backcolor>
+	</canvas>
+	<Xaxis>
+		<name>Sales (TL)</name>
+	</Xaxis>
+	<Yaxis>
+		<name>Months</name>
+		<forecolor>black</forecolor>
+	</Yaxis>
+	<Xset>
+		<xdata>January</xdata>
+		<xdata>February</xdata>
+		<xdata>March</xdata>
+		<xdata>April</xdata>
+		<xdata>May</xdata>
+		<xdata>June</xdata>
+		<xdata>July</xdata>
+		<xdata>August</xdata>
+		<xdata>September</xdata>
+		<xdata>October</xdata>
+		<xdata>November</xdata>
+		<xdata>December</xdata>
+		
+	</Xset>
+	<Yset unit="TL" name="İzmir" showvalue="yes" fillcolor="FFCCDD">
+		<ydata>1200</ydata>
+		<ydata>1500</ydata>
+		<ydata>7500</ydata>
+		<ydata>4200</ydata>
+		<ydata>5600</ydata>
+		<ydata>2200</ydata>
+		<ydata>1200</ydata>
+		<ydata>2200</ydata>
+		<ydata>1200</ydata>
+		<ydata>1500</ydata>
+		<ydata>3200</ydata>
+		<ydata>5600</ydata>
+	</Yset>
+	<Yset unit="TL" name="İstanbul" showvalue="no" fillcolor="00CCDD">
+		<ydata>9500</ydata>
+		<ydata>6500</ydata>
+		<ydata>11250</ydata>
+		<ydata>3200</ydata>
+		<ydata>5600</ydata>
+		<ydata>4200</ydata>
+		<ydata>7500</ydata>
+		<ydata>4200</ydata>
+		<ydata>5600</ydata>
+		<ydata>2200</ydata>
+		<ydata>1200</ydata>
+		<ydata>1500</ydata>
+	</Yset>
+	
+	
+</chartgendata>

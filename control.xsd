@@ -1,0 +1,51 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+<xs:element name="chartgendata">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="charttitle"/>
+<xs:element name="canvas">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:short" name="length"/>
+<xs:element type="xs:string" name="width"/>
+<xs:element type="xs:string" name="backcolor" default="#FFFFFF"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Xaxis">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="name"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Yaxis">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="name"/>
+<xs:element type="xs:string" name="forecolor" default="#000000"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Xset">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="xdata" maxOccurs="unbounded" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Yset" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:decimal" name="ydata" maxOccurs="unbounded" minOccurs="0"/>
+</xs:sequence>
+<xs:attribute type="xs:string" name="unit" use="optional"/>
+<xs:attribute type="xs:string" name="name" use="optional"/>
+<xs:attribute type="xs:string" name="showvalue" default="no"/>
+<xs:attribute type="xs:string" name="fillcolor" default="#000000"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
